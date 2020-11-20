@@ -1,0 +1,80 @@
+{
+  "name": "arci_client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui": "^2.1.12",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "^1.3.1",
+    "@coreui/icons": "0.3.0",
+    "@coreui/react": "^2.5.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
+    "classnames": "^2.2.6",
+    "core-js": "^3.1.4",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "flag-icon-css": "^3.3.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-bootstrap-table": "^4.3.1",
+    "react-bootstrap-table-next": "^3.3.0",
+    "react-bootstrap-table2-editor": "^1.4.0",
+    "react-chartjs-2": "^2.7.6",
+    "react-csv": "^1.1.2",
+    "react-dom": "^16.8.6",
+    "react-multi-email": "^0.5.1",
+    "react-multiselect-checkboxes": "0.0.6",
+    "react-redux": "^7.1.1",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-select": "^3.0.8",
+    "react-spinners": "^0.6.1",
+    "react-test-renderer": "^16.8.6",
+    "react-toastify": "^5.4.1",
+    "react-widgets": "^4.4.11",
+    "react-widgets-moment": "^4.0.27",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-react-session": "^2.6.0",
+    "redux-thunk": "^2.3.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.11.3",
+    "react-scripts": "^3.0.1"
+  },
+  "scripts": {
+    "prod": "title ARCI PRODUCTION Server && set PORT=3003 && set REACT_APP_ARCI_ENVIRONMENT=PROD&& react-scripts start",
+    "test-arci": "title ARCI TESTING Server && set PORT=3001 && set REACT_APP_ARCI_ENVIRONMENT=TEST&& react-scripts start",
+    "dev": "title ARCI DEVELOPMENT Server && set PORT=3000 && set REACT_APP_ARCI_ENVIRONMENT=DEV&& react-scripts start",
+    "start": "title ARCI Local Server && set PORT=3000 && react-scripts start",
+    "build": "title ARCI PRODUCTION Server && set PORT=3003 && set REACT_APP_ARCI_ENVIRONMENT=PROD&& react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 9",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  },
+  "engines": {
+    "node": ">=8.10",
+    "npm": ">=6"
+  }
+}

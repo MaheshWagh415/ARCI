@@ -1,0 +1,29 @@
+[
+    {"id":"1", "name":"Rohit Sharma", "skill": "Java Developer", "interview_date":"10/10/2019",
+	"client": "John Dere", "client_group": "TCI", "email":"Sent", "action": "Cancel",
+	"progress":"Hold", "status":"Selected"},
+    {"id":"2", "name":"Mohit Sharma", "skill": "Front End Developer", "interview_date":"08/10/2019",
+	"client": "Schlumberger", "client_group": "SLB", "email":"Failed", "action": "Hold",
+	"progress":"Cancel", "status":"Rejected" },
+    {"id":"3", "name":"Sachin Singhania", "skill": "Java Developer", "interview_date":"08/10/2019",
+	"client": "John Dere", "client_group": "TCI", "email":"Sending", "action": "Cancel",
+	"progress":"Cancel", "status":"On Hold"},
+    {"id":"4",  "name":"Ajay Singh", "skill": "Java Developer", "interview_date":"08/10/2019",
+	"client": "Schlumberger", "client_group": "SLB", "email":"Sent", "action": "Hold",
+	"progress":"Cancel","status":"Selected"},
+    {"id":"5", "name":"Neeraj Rathod", "skill": "Front End Developer", "interview_date":"08/10/2019",
+	"client": "John Dere", "client_group": "TCI", "email":"Failed", "action": "Cancel",
+	"progress":"cancel" ,"status":"Selected"},
+    {"id":"6", "name":"Abhishek Kumar", "skill": "Front End Developer", "interview_date":"08/10/2019",
+	"client": "Schlumberger", "client_group": "SLB", "email":"Sending", "action": "Cancel",
+	"progress":"Cancel" ,"status":"Rejected"},
+    {"id":"7","name":" Amit Singh", "skill": "Java Developer", "interview_date":"08/10/2019",
+	"client": "John Dere", "client_group": "TCI", "email":"Failed", "action": "Hold",
+	"progress":"Cancel", "status":"On Hold" },
+    {"id":"8","name":"Suraj Sharma", "skill": "Front End Developer", "interview_date":"08/10/2019",
+	"client": "Schlumberger", "client_group": "SLB", "email":"Sent", "action": "Cancel",
+	"progress":"Cancel", "status":"Selected"}
+
+]           
+   
+

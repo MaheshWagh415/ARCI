@@ -1,0 +1,394 @@
+// Here you can add other styles
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+
+.dropdown-toggle::after {
+  border-top: 0;
+}
+
+.react-bs-table table td,
+.react-bs-table table th {
+  white-space: unset;
+}
+
+.table th,
+.table td {
+  // padding: 0.75rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+.main .container-fluid {
+  margin-top: -2%;
+  padding: 0px 15px;
+}
+
+.react-bs-table-container {
+  margin-top: -5%;
+}
+
+.main .container-fluid {
+  height: 200px;
+}
+
+// upcoming dashboard scss
+.upcoming-table li.dropdown-item {
+  padding: 0;
+}
+.upcoming-table .dropdown-item a {
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  position: relative;
+}
+
+
+.customForm .customFormLabel,
+.customForm .customToLabel {
+  margin-right: 20px;
+  float: left;
+  padding-top: 5px;
+}
+
+.customForm .dateTimePicker {
+  z-index: 999;
+  float: left;
+  max-width: 125px;
+  width: 100%;
+}
+
+.upcoming-table .table .fa {
+  font-size: 24px;
+}
+.upcoming-table .table .fa-exclamation-circle {
+  color: red;
+}
+.upcoming-table .table .fa-check-square-o {
+  color: green;
+}
+.upcoming-table .table .fa-warning {
+  color: #856404;
+}
+.upcoming-table .table .fa-paper-plane {
+  color: grey;
+}
+// .upcoming-table .table .badge {
+//   font-size: 14px;
+// }
+.errors {
+  color: red;
+}
+.btn-schedule {
+  margin: 15px;
+  padding: 10px 15px;
+}
+
+.customHeader {
+  font-weight: 900;
+  font-size: 24px;
+  color: #005ba1;
+  width: 50px;
+  position: absolute;
+  margin-left: 140px;
+}
+.customFooter {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  margin-left: 0 !important;
+}
+
+.upcoming-table .react-bs-table-container.bootStrapTable,
+.dashboard-table .react-bs-table-container.bootStrapTable {
+  margin-top: -33px;
+}
+
+.upcoming-table .form-group.form-group-sm.react-bs-table-search-form,
+.dashboard-table .form-group.form-group-sm.react-bs-table-search-form {
+  width: 84%;
+  float: right;
+}
+.question-table .react-bs-table-container.bootStrapTableQuestion {
+  margin-top: 2%;
+}
+
+span[color="danger"] {
+  color: red;
+}
+
+.associate-dashboard {
+  padding-top: 30px;
+}
+.associateTable {
+  margin: 0;
+}
+.react-multi-email > input {
+  min-width: 350px !important;
+}
+
+.associateFeedback {
+  padding: 10px;
+}
+
+.css-1hwfws3 {
+  width: 300px;
+}
+
+.labelStyle {
+  margin: 5px;
+}
+
+.skills {
+  margin-bottom: 30px;
+}
+
+.removeIcon {
+  color: red;
+}
+
+.questionContent {
+  margin-bottom: 20px;
+}
+.questionText {
+  width: 100%;
+  height: 60px;
+}
+
+.app, app-dashboard, app-root {
+  // display: flex;
+  // flex-direction: column;
+  // height: 100% !important;
+  // margin: 12% auto;
+  
+}
+
+.loading {
+  z-index: 9999 !important;
+}
+
+.scroll-vertical{
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.col-xs-6 col-sm-6 col-md-6 col-lg-8{
+  width : 30%
+}
+
+.label-updateUser{
+  margin-bottom: auto;
+}
+
+.updateIcon{
+  margin: 5px 0px 5px 0px;
+  color: gray
+}
+
+.deleteIcon{
+  margin: 5px 0px 5px 0px;
+  color: darkred
+}
+
+.submitButton {
+ background-color: white;
+ border-color: white
+}
+
+.scroll-vertical-fb{
+  max-height: 400px;
+  overflow-y: scroll;
+  padding-top: 8%;
+}
+.userModel{
+  padding:inherit
+}
+.userModelCard{
+  margin-bottom: auto
+}
+.cardBody{
+      padding: .8rem !important;
+}
+.modelFooter{
+      padding: .5rem;
+}
+
+.badge_search {
+  font-size: 14px;
+  color: #20a8d8 !important;
+  cursor: pointer;
+}
+
+.badge_search:hover {
+  text-decoration: underline !important;
+}
+
+.mlft10 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.react-bs-table-pagination .dropdown-item {
+  padding: 0;
+}
+
+.react-bs-table-pagination .dropdown-item a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.notification{
+  margin-right: 50px;
+}
+
+.notificationTitle{
+  text-align: left;
+  font-size: 11px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.notificationMsg{
+  text-align: left;
+  font-size: 10px;
+}
+
+.notificationDiv{
+  padding: 5px 5px;
+  width: 200px;
+  // color: black;
+  border-bottom: 1px dotted lightblue 
+}
+.dropdown-menu{
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.dropdown-menu1{
+    max-height: 400px;   
+}
+.createdOn{
+  text-align: right;
+  font-size: 8px;
+}
+
+.viewAll {
+  text-align: center;
+}
+
+.refDiv {
+display: block;
+}
+
+.badgeStyle {
+  left: inherit !important;
+}
+
+.notificationDiv .notificationTitle {
+  text-decoration: none;
+}
+
+.linkStyle{
+  color : black;
+}
+
+.linkStyle:hover {
+  text-decoration: none; color: darkgray
+}
+
+.close_arrow, .close_arrow:hover {
+  float: right;
+  color: #000;
+  font-size: 18px;
+  right: 25px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.clients_actions {
+  background: transparent;
+  border: none;
+  color: #23282c;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.errors.toEmails {
+  font-size: 80%;
+  color: #f86c6b;
+}
+
+.toSelectError > div:first-child  {
+  border-color: #f86c6b;
+}
+.toSelectErrorQuestion > div:first-child  {
+  border-color: #a09696;
+}
+.chart-wrapper canvas{
+  max-height: 400px;
+}
+.graphSelect , .graphGrupName{
+  width: 56%;
+}
+.graphLabel, .graphLabel{
+
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.progress {
+  height: 28px;
+    margin: 20px;
+}
+.progress-bar {
+  font-size: 14px;
+  color: black !important;
+  font-weight: 500;
+}
+
+.dateTimePicker.is-invalid
+{
+  box-shadow: 0px 0px 1px 1px #f86c6b;
+  border-radius: 4px;
+}
+.container-header{
+  display: flex;
+  margin:15px;
+width:100%;  
+
+}
+.block{
+  width:20%;
+}
+.block:nth-child(4) {
+  width:30%;
+}
+.block:nth-child(5) {
+  width:10%;
+}
+
+.block .contaner-date-piker{
+  width: 100%;
+  display: inline-flex;
+}
+.error-msg{
+  color:red;
+}
+
+
